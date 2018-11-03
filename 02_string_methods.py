@@ -5,6 +5,10 @@ string = "Hello, world."
 string_two = "Hello, world. There is light."
 
 # Compare string 2 against string 1 and see if string 1 contains string 2.
-
 s2_in_s1 = string_two in string
 print(s2_in_s1)
+
+# Get the smallest character of the word "hello" and print it.
+hello = "hello"
+smallest = min(hello)
+print(smallest)
