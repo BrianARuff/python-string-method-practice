@@ -36,3 +36,10 @@ swap_cased_string = another_oddly_cased_string.swapcase()
 
 # Print the swap_cased_string variable's value
 print(swap_cased_string)
+
+# Create a lower case string and store it to a variable whose name is of your choosing.
+all_lower_case_sentence = "i believe i can fly."
+
+# Convert the all_lower_case_sentence variable value using the capitalize method and then print it out.
+capitalized_sentence = all_lower_case_sentence.capitalize()
+print(capitalized_sentence)
