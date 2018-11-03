@@ -12,3 +12,13 @@ print(s2_in_s1)
 hello = "hello"
 smallest = min(hello)
 print(smallest)
+
+# Concatenate two string together and print them out.
+s1 = "Hello, "
+s2 = "Word."
+s3 = s1 + s2
+print(s3)
+
+# Get length of a string and print the length out.
+s1_len = len(s1)
+print(s1_len)
