@@ -22,3 +22,8 @@ print(s3)
 # Get length of a string and print the length out.
 s1_len = len(s1)
 print(s1_len)
+
+# Get the largest character in a given string
+string = "azbcdefg"
+larget_char = max(string)
+print(larget_char)
