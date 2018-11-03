@@ -1,0 +1,6 @@
+{
+    "C_Cpp.navigation.length": 79,
+    "html.format.wrapLineLength": 79,
+    "editor.minimap.maxColumn": 79,
+    "python.formatting.provider": "yapf"
+}
