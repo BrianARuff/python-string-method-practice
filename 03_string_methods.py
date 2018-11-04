@@ -8,6 +8,15 @@ string_two = "Happy"
 occurence = string.count(string_two)
 print(occurence)
 
-# Return string multiplied by an integer and print it out
+# Generate string multiplied by an integer and print it out
 string_repeated_nth_times = string * 3
 print(string_repeated_nth_times)
+
+ # Get character at any index of a given string and print it.
+char_at_zero = string[0]
+print(char_at_zero)
+
+# Slice a string starting at position "i" and ending at position "j" while stepping k amount of times and then print the result.
+new_string = "Willabeast"
+sliced_string = new_string[0:10:2]
+print(sliced_string)
