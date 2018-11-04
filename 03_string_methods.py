@@ -20,3 +20,10 @@ print(char_at_zero)
 new_string = "Willabeast"
 sliced_string = new_string[0:10:2]
 print(sliced_string)
+
+# Make a function that performs the same operations as above.
+
+def slice_and_dice(string, i, j, k):
+    return string[i:j:k]
+
+print(slice_and_dice('WildaBeast', 0, 10, 2))
