@@ -14,10 +14,14 @@ print(string.index("f"))
 # Find first occurence of substring in string after i but before j and print it.
 print(string.index("a", 3, 8))
 
+# Find right most index while throwing value error if not found.
+print(string.index('a'))
+
 # Replace function
 s1 = 'this is the world we live in'
 s2 = 'i'
 s3 = 'I'
+print(s1.rindex('i', 0, 10))
 # s1 is the string comparator, s2 is the old value in the string comparator, s3 is the new value that is going to change what ever s2 is, only in s1, and it will only affect the first occurence because of the count paramter being filled out. If it had not been filled out then it would replace all of the "i"s with "I"s.
 s1 = s1.replace(s2, s3, 1)
 print(s1)
