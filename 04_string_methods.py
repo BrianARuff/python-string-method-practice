@@ -17,3 +17,7 @@ print(r_just_string)
 # Center string with nth amount of padding and print it.
 center_pad_string = stripped_string.center(100, '-')
 print(center_pad_string)
+
+# Check if string only contains whitespace.
+white_space_string = "     "
+print(white_space_string.isspace())
